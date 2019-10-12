@@ -14,7 +14,6 @@ D:\295N\Lab1Part2SkeletalCommunityWebsite\Lab1Part2SkeletalCommunityWebsite\obj\
 D:\295N\Lab1Part2SkeletalCommunityWebsite\Lab1Part2SkeletalCommunityWebsite\obj\Debug\netcoreapp2.2\Lab1Part2SkeletalCommunityWebsite.TagHelpers.input.cache
 D:\295N\Lab1Part2SkeletalCommunityWebsite\Lab1Part2SkeletalCommunityWebsite\obj\Debug\netcoreapp2.2\Lab1Part2SkeletalCommunityWebsite.TagHelpers.output.cache
 D:\295N\Lab1Part2SkeletalCommunityWebsite\Lab1Part2SkeletalCommunityWebsite\obj\Debug\netcoreapp2.2\Lab1Part2SkeletalCommunityWebsite.RazorCoreGenerate.cache
-D:\295N\Lab1Part2SkeletalCommunityWebsite\Lab1Part2SkeletalCommunityWebsite\obj\Debug\netcoreapp2.2\Razor\Views\Home\Contact.g.cshtml.cs
 D:\295N\Lab1Part2SkeletalCommunityWebsite\Lab1Part2SkeletalCommunityWebsite\obj\Debug\netcoreapp2.2\Razor\Views\Home\History.g.cshtml.cs
 D:\295N\Lab1Part2SkeletalCommunityWebsite\Lab1Part2SkeletalCommunityWebsite\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
 D:\295N\Lab1Part2SkeletalCommunityWebsite\Lab1Part2SkeletalCommunityWebsite\obj\Debug\netcoreapp2.2\Razor\Views\Home\Info.g.cshtml.cs
@@ -30,3 +29,5 @@ D:\295N\Lab1Part2SkeletalCommunityWebsite\Lab1Part2SkeletalCommunityWebsite\obj\
 D:\295N\Lab1Part2SkeletalCommunityWebsite\Lab1Part2SkeletalCommunityWebsite\obj\Debug\netcoreapp2.2\Lab1Part2SkeletalCommunityWebsite.dll
 D:\295N\Lab1Part2SkeletalCommunityWebsite\Lab1Part2SkeletalCommunityWebsite\obj\Debug\netcoreapp2.2\Lab1Part2SkeletalCommunityWebsite.pdb
 D:\295N\Lab1Part2SkeletalCommunityWebsite\Lab1Part2SkeletalCommunityWebsite\obj\Debug\netcoreapp2.2\Lab1Part2SkeletalCommunityWebsite.csproj.CopyComplete
+D:\295N\Lab1Part2SkeletalCommunityWebsite\Lab1Part2SkeletalCommunityWebsite\obj\Debug\netcoreapp2.2\Razor\Views\Message\Index.g.cshtml.cs
+D:\295N\Lab1Part2SkeletalCommunityWebsite\Lab1Part2SkeletalCommunityWebsite\obj\Debug\netcoreapp2.2\Razor\Views\Message\SendMessage.g.cshtml.cs

@@ -12942,9 +12942,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\295N\\Lab1Part2SkeletalCommunityWebsite\\Lab1Part2SkeletalCommunityWebsite\\Lab1Part2SkeletalCommunityWebsite.csproj",
-      "projectName": "Lab1Part2SkeletalCommunityWebsite",
-      "projectPath": "D:\\295N\\Lab1Part2SkeletalCommunityWebsite\\Lab1Part2SkeletalCommunityWebsite\\Lab1Part2SkeletalCommunityWebsite.csproj",
+      "projectUniqueName": "D:\\295N\\Lab1Part2SkeletalCommunityWebsite\\Lab1Part2SkeletalCommunityWebsite\\CS295NCommunityWebsiteNicholasGlesmann.csproj",
+      "projectName": "CS295NCommunityWebsiteNicholasGlesmann",
+      "projectPath": "D:\\295N\\Lab1Part2SkeletalCommunityWebsite\\Lab1Part2SkeletalCommunityWebsite\\CS295NCommunityWebsiteNicholasGlesmann.csproj",
       "packagesPath": "C:\\Users\\nicho\\.nuget\\packages\\",
       "outputPath": "D:\\295N\\Lab1Part2SkeletalCommunityWebsite\\Lab1Part2SkeletalCommunityWebsite\\obj\\",
       "projectStyle": "PackageReference",
