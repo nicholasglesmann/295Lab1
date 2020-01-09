@@ -1,0 +1,48 @@
+﻿@model List<Message>
+@{
+    ViewData["Title"] = "Messages";
+}
+    <h2>List of messages:</h2>
+    <h6>Number of messages: @ViewBag.messageCount</h6>
+    <hr />
+    <br />
+    @foreach (Message message in Model)
+    {
+        @if(message.IsResponse == 1)
+        {
+            continue;
+        }
+    <p>
+        @("From: " + message.Name) <br />
+        @("To: " + message.Recipient) <br />
+        @("Date: " + message.Date) <br />
+        @("Priority: " + message.MessagePriority.Substring(1)) <br />
+        @("Title: " + message.MessageTitle) <br />
+        @("Message: " + message.MessageText) <br />
+    </p>
+        @if (message.Responses.Count > 0)
+        {
+            <br />
+            <h5><span style="padding-left: 1.5em">Responses:</span></h5>
+            @foreach (Message m in message.Responses)
+            {
+                <br />
+                <p>
+                    <span style="padding-left: 2em">@("From: " + m.Name) </span><br />
+                    <span style="padding-left: 2em">@("To: " + m.Recipient) </span><br />
+                    <span style="padding-left: 2em">@("Date: " + m.Date) </span><br />
+                    <span style="padding-left: 2em">@("Title: " + m.MessageTitle) </span><br />
+                    <span style="padding-left: 2em">@("Message: " + m.MessageText) </span><br />
+                </p>
+            }
+        }
+        <br />
+        <a asp-action="SendResponse" asp-route-messagetitle="@message.MessageTitle">Send a response</a>
+        <br />
+        <br />
+        <hr />
+        <br />
+    }
+    <br>
+    <a asp-action="SendMessage">Send a new message</a><br />
+    <a href="/Home">Home</a>

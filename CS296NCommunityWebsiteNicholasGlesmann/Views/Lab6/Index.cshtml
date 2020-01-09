@@ -1,0 +1,78 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+<div class="container">
+    <h3 class="text-center">
+        Here's the index page of the Lab6 Controller. Rendered using "ViewResult".
+    </h3>
+    <h3 class="text-center">
+        <a asp-action="About">About Page Will be rendered using string</a>
+    </h3>
+    <h2 class="text-center mt-4">
+        Songs To Download:
+    </h2>
+    <h6 class="text-center mt-2">2 songs are downloaded using "PhysicalFileResult" and 2 are downloaded using "FileResult"</h6>
+    <form action="Lab6/Download" method="post">
+        <div class="row mt-3">
+            <div class="col-3"></div>
+            <div class="col-5">
+                <h5>
+                    <label class="mt-2" for="fileName">Beautiful Cinematic Piano</label><br />
+                    <input class="form-control-plaintext" type="hidden" name="fileName" readonly value="Beautiful-Cinematic-Piano.mp3" /><br />
+                </h5>
+            </div>
+            <div class="col-1">
+                <button type="submit" class="btn btn-primary">Download</button>
+            </div>
+            <div class="col-3"></div>
+        </div>
+    </form>
+    <form action="Lab6/Download" method="post">
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-5">
+                <h5>
+                    <label class="mt-2" for="fileName">Motivational Piano and Strings</label><br />
+                    <input class="form-control-plaintext" type="hidden" name="fileName" readonly value="Motivational-Piano-and-Strings.mp3" /><br />
+                </h5>
+            </div>
+            <div class="col-1">
+                <button type="submit" class="btn btn-primary">Download</button>
+            </div>
+            <div class="col-3"></div>
+        </div>
+    </form>
+    <form action="Lab6/Download2" method="post">
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-5">
+                <h5>
+                    <label class="mt-2" for="fileName">Inspiring Cinematic Piano</label><br />
+                    <input class="form-control-plaintext" type="hidden" name="fileName" readonly value="Inspiring-Cinematic-Piano.mp3" /><br />
+                </h5>
+            </div>
+            <div class="col-1">
+                <button type="submit" class="btn btn-primary">Download</button>
+            </div>
+            <div class="col-3"></div>
+        </div>
+    </form>
+    <form action="Lab6/Download2" method="post">
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-5">
+                <h5>
+                    <label class="mt-2" for="fileName">Happy Acoustic Summer Whistle</label><br />
+                    <input class="form-control-plaintext" type="hidden" name="fileName" readonly value="Happy-Acoustic-Summer-Whistle.mp3" /><br />
+                </h5>
+            </div>
+            <div class="col-1">
+                <button type="submit" class="btn btn-primary">Download</button>
+            </div>
+            <div class="col-3"></div>
+        </div>
+    </form>
+</div>
+
+

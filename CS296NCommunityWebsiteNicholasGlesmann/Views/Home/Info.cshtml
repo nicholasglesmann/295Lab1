@@ -1,0 +1,29 @@
+﻿@model List<SignificantPerson>
+@{
+    ViewData["Title"] = "Info";
+}
+
+<div class="text-center">
+    <h1>Info</h1>
+</div>
+<div class="text-center">
+    <a class="text-center nav-link" href="http://www.calvarychapelcottagegrove.com">CCCG Website</a>
+    <a class="text-center nav-link" href="http://www.starcraft2.com">StarCraft 2 Website</a>
+</div>
+<h2>Significant People:</h2>
+@foreach (SignificantPerson p in Model)
+{
+    <h5>
+        @("Name " + p.Name) <br />
+        @("Age: " + p.Age) <br />
+        @("StarCraft Race: " + p.StarCraftRace) <br />
+        @("League: " + p.League) <br />
+    </h5>
+}
+    <br />
+    <hr />
+    <br />
+<br>
+<a href="/Home">Home</a>
+
+
